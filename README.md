@@ -4,7 +4,7 @@ Application - result of executing test tasks: task1 and task3.
 
 ## Introduction
 
-Link to a pdf file with a description of the test task: [Description of tasks](https://https://bit.ly/39YBWHm)
+Link to a pdf file with a description of the test task: [description of tasks](https://drive.google.com/file/d/1f0UILq-BkONY6olteY959HcEy7c9cEke/view)
 
 
 ## Getting Started

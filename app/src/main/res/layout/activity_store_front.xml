@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border_left_right"
+    >
+
+    <fragment
+        android:id="@+id/activity_store_front_fragment_product_information"
+        android:name="com.example.ecommerceapp.storefront.BuyProductsListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/store_front_fragment_product_list_for_buy" />
+
+    <View style="@style/HorizontalDivider" />
+
+    <fragment
+        android:id="@+id/activity_store_front_fragment_switch_buttons"
+        android:name="com.example.ecommerceapp.SwitchButtonsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        tools:layout="@layout/fragment_switch_buttons" />
+
+    <View style="@style/HorizontalDivider" />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ECommerceApp</string>
+    <!--switch_buttons_fragment_xml-->
+    <string name="store_front">Store-Front</string>
+    <string name="back_end">Back-End</string>
+    <!--store_front_fragment_buy_product_list-->
+    <string name="buy">Buy</string>
+    <string name="no_products">No products</string>
+    <!--store_front_item_product_information-->
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <!--ProductDataBase-->
+    <string name="csvVirguleSplit" translatable="false">,</string>
+    <!--BuyProductsListAdapter-->
+    <string name="currencyRuble">rub.</string>
+    <string name="numberUnit">pcs.</string>
+    <!--activity_item_product_edit.xml-->
+    <string name="name">Name</string>
+    <!--back_end_cancel_save-->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <!--ItemProductEditActivity-->
+    <string name="buttonYes">Yes</string>
+    <string name="buttonNo">No</string>
+    <string name="unsavedDataMessage">You have unsaved data. Would you like to leave anyway?</string>
+    <string name="fillFieldsOfProducts">Please fill all fields.</string>
+    <string name="ok">OK</string>
+    <string name="dataSaved">Data saved</string>
+</resources>

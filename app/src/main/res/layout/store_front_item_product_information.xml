@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33">
+
+        <TextView
+            android:id="@+id/item_product_buy_name_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            tools:text="Lenovo G580" />
+    </FrameLayout>
+
+    <View style="@style/HorizontalDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_weight="50"
+            android:text="@string/price"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/item_product_buy_price_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="50"
+            android:gravity="end"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="28sp"
+            tools:text="8 922 руб." />
+    </LinearLayout>
+
+    <View style="@style/HorizontalDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_weight="50"
+            android:text="@string/quantity"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/item_product_buy_number_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="50"
+            android:gravity="end"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="28sp"
+            tools:text="1 шт." />
+    </LinearLayout>
+
+</LinearLayout>

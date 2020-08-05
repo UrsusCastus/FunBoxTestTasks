@@ -1,0 +1,13 @@
+#System files
+.DS_Store
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+#Gradle files
+.gradle/
+build/
+
+#IDEA project files
+.idea
+*.iml

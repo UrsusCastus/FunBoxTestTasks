@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_product_list_for_buy_recycler_view_products_buy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:orientation="horizontal"
+        tools:listitem="@layout/store_front_item_product_information" />
+
+    <View style="@style/HorizontalDivider" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25">
+
+        <Button
+            android:id="@+id/fragment_product_list_for_buy_button_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_buy_background_stroke_radius"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingStart="72dp"
+            android:paddingEnd="72dp"
+            android:text="@string/buy"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fragment_product_list_for_buy_text_view_no_products"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/no_products"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+</LinearLayout>

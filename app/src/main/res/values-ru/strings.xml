@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ECommerceApp</string>
+    <!--switch_buttons_fragment_xml-->
+    <string name="store_front">Store-Front</string>
+    <string name="back_end">Back-End</string>
+    <!--store_front_fragment_buy_product_list-->
+    <string name="buy">Купить</string>
+    <string name="no_products">Товар отсутствует</string>
+    <!--store_front_item_product_information-->
+    <string name="quantity">Количество</string>
+    <string name="price">Цена</string>
+    <!--ProductDataBase-->
+    <string name="csvVirguleSplit" translatable="false">,</string>
+    <!--BuyProductsListAdapter-->
+    <string name="currencyRuble">руб.</string>
+    <string name="numberUnit">шт.</string>
+    <!--activity_item_product_edit.xml-->
+    <string name="name">Название</string>
+    <!--back_end_cancel_save-->
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <!--ItemProductEditActivity-->
+    <string name="buttonYes">Да</string>
+    <string name="buttonNo">Нет</string>
+    <string name="unsavedDataMessage">У вас есть несохраненные данные. Вы все равно хотите уйти?</string>
+    <string name="fillFieldsOfProducts">Пожалуйста, заполните все поля.</string>
+    <string name="ok">OK</string>
+    <string name="dataSaved">Данные сохранены</string>
+</resources>

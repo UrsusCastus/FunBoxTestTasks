@@ -87,8 +87,15 @@ public class ItemProductEditActivity extends AppCompatActivity {
                 String priceProduct = editTextPrice.getText().toString();
                 String quantityProduct = editTextQuantity.getText().toString();
 
+                int quantity = 0;
+                try {
+                    quantity = Integer.parseInt(quantityProduct);
+                } catch (NumberFormatException e) {
+                    e.printStackTrace();
+                    Toast.makeText(getApplicationContext(), R.string.toastMessageQuantityIsZero, Toast.LENGTH_SHORT).show();
+                }
                 ProductDataStructure product = new ProductDataStructure(nameProduct, priceProduct,
-                        Integer.parseInt(quantityProduct));
+                        quantity);
 
                 if (mPositionItem != defaultPositionItem) {
                     mProductDataBase.setProduct(mPositionItem, product);

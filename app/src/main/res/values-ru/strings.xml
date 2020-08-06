@@ -26,4 +26,5 @@
     <string name="fillFieldsOfProducts">Пожалуйста, заполните все поля.</string>
     <string name="ok">OK</string>
     <string name="dataSaved">Данные сохранены</string>
+    <string name="toastMessageQuantityIsZero">Количество - 0 шт. Вы ввели большое число.</string>
 </resources>

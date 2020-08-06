@@ -1,4 +1,4 @@
-package com.example.ecommerceapp;
+package com.example.funboxtest.switchbuttoncontroller;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,7 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.ecommerceapp.backend.BackEndActivity;
+import com.example.funboxtest.R;
+import com.example.funboxtest.backend.BackEndActivity;
 
 public class SwitchButtonsFragment extends Fragment {
     private Context mContext;

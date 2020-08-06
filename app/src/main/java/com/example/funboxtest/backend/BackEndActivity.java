@@ -1,4 +1,4 @@
-package com.example.ecommerceapp.backend;
+package com.example.funboxtest.backend;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.widget.ImageButton;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.ecommerceapp.R;
+import com.example.funboxtest.R;
 
 public class BackEndActivity extends AppCompatActivity {
 

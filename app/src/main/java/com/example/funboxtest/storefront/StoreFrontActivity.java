@@ -1,11 +1,11 @@
-package com.example.ecommerceapp.storefront;
+package com.example.funboxtest.storefront;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.ecommerceapp.R;
+import com.example.funboxtest.R;
 
 public class StoreFrontActivity extends AppCompatActivity {
 

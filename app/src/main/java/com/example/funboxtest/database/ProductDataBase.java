@@ -1,7 +1,9 @@
-package com.example.ecommerceapp;
+package com.example.funboxtest.database;
 
 import android.content.Context;
 import android.util.Log;
+
+import com.example.funboxtest.R;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

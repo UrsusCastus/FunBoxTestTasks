@@ -1,4 +1,4 @@
-package com.example.ecommerceapp;
+package com.example.funboxtest.database;
 
 public class ProductDataStructure {
     private String mNameProduct;

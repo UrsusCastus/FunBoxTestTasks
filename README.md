@@ -1,4 +1,4 @@
-# FunBoxTestTasks
+# FunBoxTest
 
 Application - result of executing test tasks: task1 and task3.
 

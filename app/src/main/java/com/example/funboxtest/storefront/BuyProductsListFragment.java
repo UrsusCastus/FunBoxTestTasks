@@ -1,4 +1,4 @@
-package com.example.ecommerceapp.storefront;
+package com.example.funboxtest.storefront;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -16,9 +16,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.PagerSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.ecommerceapp.ProductDataBase;
-import com.example.ecommerceapp.ProductDataStructure;
-import com.example.ecommerceapp.R;
+import com.example.funboxtest.database.ProductDataBase;
+import com.example.funboxtest.database.ProductDataStructure;
+import com.example.funboxtest.R;
 
 public class BuyProductsListFragment extends Fragment {
     private static final String TAG_BUY_PRODUCT_LIST_FRAGMENT = "buyProductsListFragment";

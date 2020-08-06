@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ECommerceApp</string>
+    <string name="app_name">FunBoxTest</string>
     <!--switch_buttons_fragment_xml-->
     <string name="store_front">Store-Front</string>
     <string name="back_end">Back-End</string>

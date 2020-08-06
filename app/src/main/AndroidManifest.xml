@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ecommerceapp">
+    package="com.example.funboxtest">
 
     <application
         android:allowBackup="true"
@@ -8,14 +8,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/ThemeMaterialLight" >
-        <activity android:name=".storefront.StoreFrontActivity">
+        <activity android:name="com.example.funboxtest.storefront.StoreFrontActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".backend.BackEndActivity"/>
-        <activity android:name=".backend.ItemProductEditActivity"/>
+        <activity android:name="com.example.funboxtest.backend.BackEndActivity"/>
+        <activity android:name="com.example.funboxtest.backend.ItemProductEditActivity"/>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.ecommerceapp.backend;
+package com.example.funboxtest.backend;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,9 +16,9 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.ecommerceapp.ProductDataBase;
-import com.example.ecommerceapp.ProductDataStructure;
-import com.example.ecommerceapp.R;
+import com.example.funboxtest.database.ProductDataBase;
+import com.example.funboxtest.database.ProductDataStructure;
+import com.example.funboxtest.R;
 
 public class ItemProductEditActivity extends AppCompatActivity {
     private final int defaultPositionItem = -1;
@@ -74,7 +74,10 @@ public class ItemProductEditActivity extends AppCompatActivity {
         editTextQuantity.addTextChangedListener(textWatcher);
 
         mButtonCancel.setOnClickListener(view -> {
-            hideKeyboard(getApplicationContext(), this.getCurrentFocus());
+            View focusView = this.getCurrentFocus();
+            if (focusView != null) {
+                hideKeyboard(getApplicationContext(), focusView);
+            }
             showAlertDialogCancel();
         });
 
@@ -99,7 +102,10 @@ public class ItemProductEditActivity extends AppCompatActivity {
                 finish();
                 Toast.makeText(getApplicationContext(), R.string.dataSaved, Toast.LENGTH_SHORT).show();
             } else {
-                hideKeyboard(getApplicationContext(), this.getCurrentFocus());
+                View focusView = this.getCurrentFocus();
+                if (focusView != null) {
+                    hideKeyboard(getApplicationContext(), focusView);
+                }
                 showAlertDialogFillAllFields();
             }
         });

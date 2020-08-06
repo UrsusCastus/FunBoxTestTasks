@@ -1,4 +1,4 @@
-package com.example.ecommerceapp.backend;
+package com.example.funboxtest.backend;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,9 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.ecommerceapp.ProductDataBase;
-import com.example.ecommerceapp.ProductDataStructure;
-import com.example.ecommerceapp.R;
+import com.example.funboxtest.database.ProductDataBase;
+import com.example.funboxtest.database.ProductDataStructure;
+import com.example.funboxtest.R;
 
 public class AllProductsListAdapter extends RecyclerView.Adapter<AllProductsListAdapter.ProductHolder> {
     private Context mContext;

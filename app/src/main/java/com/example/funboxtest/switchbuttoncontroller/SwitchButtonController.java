@@ -1,4 +1,4 @@
-package com.example.ecommerceapp;
+package com.example.funboxtest.switchbuttoncontroller;
 
 public class SwitchButtonController {
     private static SwitchButtonController mSwitchButtonControllerInstance;

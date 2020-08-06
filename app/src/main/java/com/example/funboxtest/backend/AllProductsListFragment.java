@@ -1,4 +1,4 @@
-package com.example.ecommerceapp.backend;
+package com.example.funboxtest.backend;
 
 import android.graphics.Rect;
 import android.os.Bundle;
@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.ecommerceapp.ProductDataBase;
-import com.example.ecommerceapp.R;
+import com.example.funboxtest.database.ProductDataBase;
+import com.example.funboxtest.R;
 
 public class AllProductsListFragment extends Fragment {
     private ProductDataBase mProductDataBase;

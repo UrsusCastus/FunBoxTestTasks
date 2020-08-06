@@ -1,4 +1,4 @@
-package com.example.ecommerceapp.storefront;
+package com.example.funboxtest.storefront;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,9 +10,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.ecommerceapp.ProductDataBase;
-import com.example.ecommerceapp.ProductDataStructure;
-import com.example.ecommerceapp.R;
+import com.example.funboxtest.database.ProductDataBase;
+import com.example.funboxtest.database.ProductDataStructure;
+import com.example.funboxtest.R;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;

@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/activity_store_front_fragment_product_information"
-        android:name="com.example.ecommerceapp.storefront.BuyProductsListFragment"
+        android:name="com.example.funboxtest.storefront.BuyProductsListFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/activity_store_front_fragment_switch_buttons"
-        android:name="com.example.ecommerceapp.SwitchButtonsFragment"
+        android:name="com.example.funboxtest.switchbuttoncontroller.SwitchButtonsFragment"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         tools:layout="@layout/fragment_switch_buttons" />
